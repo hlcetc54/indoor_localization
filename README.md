@@ -2,13 +2,13 @@
 
 ## Description
 This is Mobile Application which uses Machine Learning to detect an indoor location.
-The app specifically made for infoor localization at UNIST university, 106 building, 2nd floor.
+The app specifically made for indoor localization at UNIST university, 106 building, 2nd floor.
 My app reads WIFI RSSI signals then makes classification using Deep Learning to detect the location.
 
 ## Data Collection
 The biggest challenge in this project was a data collection. 
 In fact, my phone detects up to 130 different WIFI signals, thus I had to choose most important signals.
-So I have picked 12 WIFI signals that can be received from any point on 2nd floor.
+So I have picked 12 WIFI signals that can be received from any point on the 2nd floor.
 I have made an [wifiinfo](https://github.com/kanybekasanbekov/indoor_localization/tree/master/wifiinfo) app which receives those 12 signals and saves them in a txt file as an array.
 Data was collected from 23 location, image attached below.
 Dataset can be found in [WIFI_DATA](https://github.com/kanybekasanbekov/indoor_localization/tree/master/WIFI_DATA) folder.
