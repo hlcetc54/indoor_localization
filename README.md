@@ -28,7 +28,7 @@ The model built with [Tensorflow 1.12.0](https://www.tensorflow.org/) and it's [
 After training, trained model was saved and converted into tflite version in Google Collab.
 
 ## Test 
-When model was ready, it was deployed into mobile app.
+When model was ready, it was deployed into [indoor_localization_app](https://github.com/kanybekasanbekov/indoor_localization/tree/master/indoor_localization_app).
 So for testing, whenever you want to know your location you should press on a button then app shows your position on a map.
 As you move in a building, app reads new WIFI signals, makes inference and shows your new position.
 Moreover, the app can draw your moving path as in a photo below.
